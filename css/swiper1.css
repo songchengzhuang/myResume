@@ -1,0 +1,726 @@
+/*音乐图标部分*/
+
+.music {
+	position: fixed;
+	top: 3vw;
+	right: 1.8vw;
+	z-index: 5;
+	width: 6vw;
+	height: 6vw;
+	border: 3px solid #ef1639;
+	border-radius: 50%;
+	background: #fff;
+	/*opacity: 0.8;*/
+	-webkit-animation: p3_title 0.8s linear infinite alternate;
+	-o-animation: p3_title 0.8s linear infinite alternate;
+	animation: p3_title 0.8s linear infinite alternate;
+}
+
+@-webkit-keyframes p3_title {
+	from {
+		-webkit-transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		/*-0-transform: scale(0.8, 0.8);*/
+		transform: scale(0.8, 0.8);
+	}
+	to {}
+}
+
+@keyframes p3_title {
+	from {
+		-webkit-transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		/*-0-transform: scale(0.8, 0.8);*/
+		transform: scale(0.8, 0.8);
+	}
+	to {}
+}
+
+.music>img:first-of-type {
+	z-index: 5;
+	position: absolute;
+	top: 24%;
+	right: 2.5%;
+	width: 28.421%;
+}
+
+.music>img:last-of-type {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 79%;
+}
+
+
+/*音乐动画部分*/
+
+.playdonghua {
+	-webkit-animation: music_disc 4s linear infinite;
+	-o-animation: music_disc 4s linear infinite;
+	animation: music_disc 4s linear infinite;
+}
+
+@-webkit-keyframes music_disc {
+	from {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes music_disc {
+	from {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+
+/*第一页 文字的设置*/
+
+.sp1_txt,
+.sp2_txt,
+.sp3_txt,
+.sp4_txt,
+.sp5_txt,
+.sp6_txt {
+	/*border: 1px solid #fff;*/
+	position: absolute;
+	display: inline-block;
+	color: #FFF;
+	z-index: 5;
+}
+
+.sp2_txt {
+	text-align: left;
+	padding-left: 1.0em;
+}
+
+#myswiper1>.txt1_01 {
+	width: 10.0em;
+	right: 0;
+	left: 0;
+	bottom: 7em;
+	margin: auto;
+	font-size: 4.0em;
+	/*line-height: 5.0em;*/
+}
+
+#myswiper1>.txt1_02 {
+	width: 15.0em;
+	right: 0;
+	left: 0;
+	bottom: 7em;
+	margin: auto;
+	font-size: 2.6em;
+	/*line-height: 4.0em;*/
+}
+
+#myswiper1>.txt1_02>.txt1_03 {
+	font-size: 1.1em;
+}
+
+#myswiper1>.txt1_04 {
+	width: 40.0em;
+	right: 0;
+	bottom: 5em;
+	left: 0;
+	margin: auto;
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+
+/*第二页部分布局*/
+
+
+/*头像*/
+
+#myswiper2>.myhead {
+	position: absolute;
+	width: 11em;
+	height: 11em;
+	left: 16em;
+	bottom: 20em;
+	z-index: 5;
+	background: url(../img/touxiang.png) no-repeat center center;
+	background-size: 100%;
+	border: 2px solid lightslategrey;
+	border-radius: 50%;
+}
+
+
+/*标题2*/
+
+#myswiper2>.txt2_01 {
+	width: 40.0vw;
+	height: 3.0vw;
+	top: 6.7vh;
+	left: 2.5vw;
+	margin: auto;
+	font-size: 2.7333vw;
+	text-align: left;
+	line-height: 3.0vw;
+	padding-left: 0;
+	color: #80BFFF;
+}
+
+#myswiper2>.txt2_01>.txt2_02 {
+	font-size: 1.6vw;
+}
+
+
+/*姓名*/
+
+#myswiper2>.txt2_03 {
+	width: 10em;
+	right: 0;
+	left: 0;
+	bottom: 15em;
+	margin: auto;
+	font-size: 2em;
+	text-indent: 3em;
+}
+
+
+/*性别和生日*/
+
+#myswiper2>.txt2_04 {
+	width: 25em;
+	right: 0;
+	left: 0;
+	bottom: 18em;
+	margin: auto;
+	font-size: 1.5em;
+	text-indent: 6em;
+}
+
+
+/*地址*/
+
+#myswiper2>.txt2_05 {
+	width: 25em;
+	right: 0;
+	left: 0;
+	bottom: 16em;
+	margin: auto;
+	font-size: 1.5em;
+	text-indent: 6em;
+}
+
+
+/*手机号*/
+
+#myswiper2>.txt2_06 {
+	width: 25em;
+	right: 0;
+	left: 0;
+	bottom: 14em;
+	margin: auto;
+	font-size: 1.5em;
+	text-indent: 6em;
+}
+
+
+/*邮箱*/
+
+#myswiper2>.txt2_07 {
+	width: 25em;
+	right: 0;
+	left: 0;
+	bottom: 12em;
+	margin: auto;
+	font-size: 1.5em;
+	text-indent: 6em;
+}
+
+
+/*教育背景*/
+
+#myswiper2>.txt2_08 {
+	width: 35em;
+	/*height: 2.0vw;*/
+	right: 0;
+	left: 0;
+	bottom: 7em;
+	margin: auto;
+	font-size: 1.7em;
+	text-align: left;
+	color: coral;
+	/*line-height: 2.0vw;*/
+	padding-left: 0;
+}
+
+#myswiper2>.txt2_08>.txt2_09 {
+	font-size: 0.8em;
+}
+
+
+/*自我评价*/
+
+#myswiper2>.txt2_10 {
+	width: 35em;
+	/*height: 2.0vw;*/
+	right: 0;
+	left: 0;
+	bottom: 5.0em;
+	margin: auto;
+	font-size: 1.7em;
+	text-align: left;
+	color: darkgreen;
+	/*line-height: 2.0vw;*/
+	padding-left: 0;
+}
+
+#myswiper2>.txt2_10>.txt2_11 {
+	position: absolute;
+	display: inline-block;
+	width: 40em;
+	/*height: 6.0vw;*/
+	top: 0;
+	font-size: 0.7em;
+	line-height: 1.3em;
+	padding-top: 7px;
+}
+
+
+/*兴趣爱好*/
+
+#myswiper2>.txt2_12 {
+	width: 35em;
+	/*height: 2.0vw;*/
+	right: 0;
+	left: 0;
+	bottom: 1.5em;
+	margin: auto;
+	font-size: 1.7em;
+	text-align: left;
+	color: darkorchid;
+	padding-left: 0;
+}
+
+#myswiper2>.txt2_12>.txt2_13 {
+	font-size: 0.8em;
+}
+
+
+/*第三页布局*/
+
+
+/*标题3*/
+
+#myswiper3>.txt3_01 {
+	width: 50.0vw;
+	height: 3.0vw;
+	top: 6.7vh;
+	left: 2.5vw;
+	margin: auto;
+	font-size: 2.7333vw;
+	text-align: left;
+	line-height: 3.0vw;
+	padding-left: 0;
+	color: #ADADAD;
+}
+
+#myswiper3>.txt3_01>.txt3_02 {
+	font-size: 1.4vw;
+}
+
+
+/*段落总设置*/
+
+#myswiper3>.txt3_03,
+#myswiper3>.txt3_05,
+#myswiper3>.txt3_07,
+#myswiper3>.txt3_09 {
+	/*border: 1px solid #fff;*/
+	width: 35em;
+	right: 0;
+	left: 0;
+	margin: auto;
+	font-size: 2em;
+	/*font-weight: bold;*/
+	text-align: left;
+	padding-left: 0;
+}
+
+#myswiper3>.txt3_03>.txt3_04,
+#myswiper3>.txt3_05>.txt3_06,
+#myswiper3>.txt3_07>.txt3_08,
+#myswiper3>.txt3_09>.txt3_10 {
+	/*border: 1px solid #fff;*/
+	position: absolute;
+	display: inline-block;
+	width: 45em;
+	top: 0;
+	font-size: 0.6em;
+	/*font-weight: bold;*/
+	line-height: 1.3em;
+	padding-top: 7px;
+}
+
+
+/*html+css*/
+
+#myswiper3>.txt3_03 {
+	bottom: 14.5em;
+	color: #333;
+}
+
+#myswiper3>.txt3_05 {
+	bottom: 10.5em;
+	color: sienna;
+}
+
+#myswiper3>.txt3_07 {
+	bottom: 5.5em;
+	color: #FF7F50;
+}
+
+#myswiper3>.txt3_09 {
+	bottom: 3em;
+	color: #d9534f;
+}
+
+
+/*第四页 项目经验*/
+
+
+/*标题4*/
+
+#myswiper4>.txt4_01 {
+	width: 50.0vw;
+	height: 3.0vw;
+	top: 6.7vh;
+	left: 2.5vw;
+	margin: auto;
+	font-size: 2.7333vw;
+	text-align: left;
+	line-height: 3.0vw;
+	padding-left: 0;
+	color: #ff6699;
+}
+
+#myswiper4>.txt4_01>.txt4_02 {
+	font-size: 1.4vw;
+}
+
+
+/*3个项目模块*/
+
+#myswiper4>.item {
+	border: 5px solid #e0e0eb;
+	position: absolute;
+	width: 10em;
+	height: 10em;
+	z-index: 5;
+	padding: 5px;
+}
+
+#myswiper4>.item:hover {
+	background: #ffe5ff;
+	opacity: 0.6;
+}
+
+#myswiper4>.item>a>span {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 1.4em;
+}
+
+#myswiper4>.item>p {
+	font-size: 0.9em;
+}
+
+#myswiper4>.item1 {
+	width: 25em;
+	height: 10em;
+	left: 4.0em;
+	bottom: 19em;
+}
+
+#myswiper4>.item2 {
+	width: 25em;
+	height: 10em;
+	right: 10em;
+	bottom: 19em;
+}
+
+#myswiper4>.item3 {
+	width: 25em;
+	height: 10em;
+	left: 4.0em;
+	bottom: 5em;
+}
+
+#myswiper4>.item4 {
+	width: 25em;
+	height: 10em;
+	right: 10em;
+	bottom: 5em;
+}
+
+
+/*第五页布局*/
+
+#myswiper5>.txt5_01 {
+	width: 50.0vw;
+	height: 3.0vw;
+	top: 6.7vh;
+	left: 2.5vw;
+	margin: auto;
+	font-size: 2.7333vw;
+	text-align: left;
+	line-height: 3.0vw;
+	padding-left: 0;
+	color: #f0ad4e;
+}
+
+#myswiper5>.txt5_01>.txt5_02 {
+	font-size: 1.4vw;
+}
+
+
+/*作品展示轮播*/
+
+#myswiper5>.swiper5_1 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	/*padding-top: 50px;
+	padding-bottom: 50px;*/
+	background: url(../img/module5_bg.png) no-repeat center center;
+	background-size: 100%;
+}
+
+#myswiper5>.swiper5_1 .swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 400px;
+	height: 400px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+#myswiper5>.swiper5_1 .s5_slide01 {
+	background: url(../img/xiangmu1.png) no-repeat center center;
+	background-size: 100%;
+}
+
+#myswiper5>.swiper5_1 .s5_slide02 {
+	background: url(../img/xiangmu2.jpg) no-repeat center center;
+	background-size: 100%;
+}
+
+#myswiper5>.swiper5_1 .s5_slide03 {
+	background: url(../img/xiangmu3.png) no-repeat center center;
+	background-size: 100%;
+}
+
+#myswiper5>.swiper5_1 .s5_slide04 {
+	background: url(../img/xiangmu4.png) no-repeat center center;
+	background-size: 100%;
+}
+
+#myswiper5>.swiper5_1 .s5_slide05 {
+	background: url(../img/xiangmu5.png) no-repeat center center;
+	background-size: 100%;
+}
+
+
+/*搜索图标*/
+
+#myswiper5 .sousuo {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background: url(../img/sousuo.jpg) no-repeat center center;
+	background-size: 100%;
+	opacity: 0;
+}
+
+#myswiper5 .sousuo:hover {
+	opacity: 0.7;
+}
+
+#myswiper5 .sousuo>span {
+	position: absolute;
+	width: 70%;
+	height: 40%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	font-size: 2.1vw;
+	font-weight: bold;
+	color: #ff1a8c;
+	/*opacity: 1;*/
+}
+
+
+/*第六页布局*/
+
+#myswiper6>.txt6_01 {
+	width: 50.0vw;
+	height: 3.0vw;
+	top: 6.7vh;
+	left: 2.5vw;
+	margin: auto;
+	font-size: 2.7333vw;
+	text-align: left;
+	line-height: 3.0vw;
+	padding-left: 0;
+	color: #d9534f;
+}
+
+#myswiper6>.txt6_01>.txt6_02 {
+	font-size: 1.5vw;
+}
+
+
+/*伯乐 那句话。*/
+
+#myswiper6>.txt6_03 {
+	width: 15em;
+	/*height: 5.0vw;*/
+	z-index: 6;
+	right: 0;
+	left: 0;
+	bottom: 9.5em;
+	margin: auto;
+	font-size: 3em;
+	color: #000;
+	/*color: #33adff;*/
+}
+
+
+/*信封*/
+
+#myswiper6>.xinjian {
+	position: absolute;
+	width: 36em;
+	height: 20.0em;
+	z-index: 5;
+	right: 0;
+	bottom: -20em;
+	left: 0;
+	margin: auto;
+	background: url(../img/xinfeng.jpg) no-repeat center center;
+	background-size: 100%;
+}
+
+
+/*信封动画*/
+
+.xinfengdonghua {
+	-webkit-animation-name: xinfengdonghua;
+	animation-name: xinfengdonghua;
+}
+
+@-webkit-keyframes xinfengdonghua {
+	0% {
+		bottom: -20em;
+	}
+	100% {
+		bottom: 6em;
+	}
+}
+
+@keyframes xinfengdonghua {
+	0% {
+		bottom: -20em;
+	}
+	100% {
+		bottom: 6em;
+	}
+}
+
+
+/*拖手设置*/
+
+#myswiper6>.tushou {
+	position: absolute;
+	width: 48.0em;
+	height: 31.0em;
+	z-index: 5;
+	right: 0;
+	bottom: -12.0em;
+	left: 0;
+	margin: auto;
+	background: url(../img/tuoshou.png) no-repeat center center;
+	background-size: 100%;
+}
+
+
+/*拖手动画*/
+
+.tuoshoudonghua {
+	-webkit-animation-name: tuoshoudonghua;
+	animation-name: tuoshoudonghua;
+}
+
+@-webkit-keyframes tuoshoudonghua {
+	0% {
+		bottom: -38em;
+	}
+	50% {
+		bottom: -12.0em;
+	}
+	100% {
+		bottom: -38em;
+	}
+}
+
+@keyframes tuoshoudonghua {
+	0% {
+		bottom: -38em;
+	}
+	50% {
+		bottom: -12.0em;
+	}
+	100% {
+		bottom: -38em;
+	}
+}
+
+
+/*信封的文字*/
+
+#myswiper6>.xinjian>div {
+	width: 100%;
+	/*height: 7vw;*/
+	text-align: left;
+	font-size: 1.6em;
+	line-height: 4em;
+	text-indent: 1em;
+}

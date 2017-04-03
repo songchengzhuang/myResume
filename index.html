@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"/>-->
+		<title>song的简历</title>
+		<!--用到的库-->
+		<link href="//cdn.bootcss.com/Swiper/3.4.0/css/swiper.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="chajianku/animate.min.css" />
+		<!--自己的css-->
+		<link rel="stylesheet" type="text/css" href="css/myfullpage.css" />
+		<link rel="stylesheet" type="text/css" href="css/loading.css" />
+		<link rel="stylesheet" href="css/swiper1.css" />
+	</head>
+
+	<body>
+		<!--loading动画-->
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+					<div class="object"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--音乐部分-->
+		<div class="music">
+			<img src="img/music_pointer.png">
+			<img id="music" class="playdonghua" src="img/music_disc.png">
+			<audio autoplay="true">
+				<source src="music/bg_music.mp3" type="audio/mpeg"></source>
+			</audio>
+		</div>
+		<!--主体框架-->
+		<div class="swiper-container myswiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide swiper1" id="myswiper1">
+					<!--幻灯片轮播-->
+					<div class="swiper-container swiper1_1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide s1_slide01"></div>
+							<div class="swiper-slide s1_slide02">
+								<div class="pagebg pagebg1"></div>
+							</div>
+							<div class="swiper-slide s1_slide03">
+								<div class="pagebg pagebg1"></div>
+							</div>
+						</div>
+					</div>
+					<!--第一页文字部分-->
+					<span class="sp1_txt txt1_01 ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1.5s" swiper-animate-delay="0.7s">终于，等到您 !</span>
+					<span class="sp1_txt txt1_02 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s" swiper-animate-delay="0.8s">求职目标：<span class="txt1_03">Web前端工程师</span></span>
+					<span class="sp1_txt txt1_04 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1.2s" swiper-animate-delay="0.8s">经过在大学的探索，我决心在未来职业生涯中专注于——网站前端技术和用户的体验设计相关工作，热爱前端，专注前端！</span>
+				</div>
+				<div class="swiper-slide swiper2" id="myswiper2">
+					<div class="pagebg pagebg2"></div>
+					<!--头像-->
+					<div class="myhead ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1.3s" swiper-animate-delay="0.2s" title="我的头像"></div>
+					<!--第二页文字部分-->
+					<span class="sp2_txt txt2_01 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">认识我吧<span class="txt2_02"> —— 不忘初心，方得始终。</span></span>
+					<span class="sp2_txt txt2_03">宋呈状</span>
+					<span class="sp2_txt txt2_04 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.1s" swiper-animate-delay="0.2s">性别：男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生日：1995.01.07</span>
+					<span class="sp2_txt txt2_05 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.1s" swiper-animate-delay="0.4s">地址：山东省 滨州市</span>
+					<span class="sp2_txt txt2_06 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.1s" swiper-animate-delay="0.6s">手机：17863816136</span>
+					<span class="sp2_txt txt2_07 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.1s" swiper-animate-delay="0.8s">邮箱：songchengzhuang@foxmail.com</span>
+					<span class="sp2_txt txt2_08 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1.0s">教育背景：<span class="txt2_09">泰山学院   软件工程   本科   2014.09-至今</span></span>
+					<span class="sp2_txt txt2_10 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1.3s">自我评价：<span class="txt2_11">乐观开朗，积极向上，乐于分享，能吃苦，抗压能力强。<br>在学校常常参加一些社团活动，具有良好的学习能力，学习新知识。富有团队精神，能与团队组员充分配合，发挥团队优势。积极向上的工作态度和责任心，对自身工作能力有信心。</span></span>
+					<span class="sp2_txt txt2_12 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">兴趣爱好：<span class="txt2_13">编码、上网、听音乐、阅读、跑步、爬山、学习新知识。</span></span>
+				</div>
+				<!--第3部分-->
+				<div class="swiper-slide swiper3" id="myswiper3">
+					<div class="pagebg pagebg3"></div>
+					<span class="sp3_txt txt3_01 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">专业技能<span class="txt3_02"> —— 优雅的代码，奇异的思维，梦幻的灵感，逐渐走向统一。</span></span>
+					<span class="sp3_txt txt3_03 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.2s" swiper-animate-delay="1.0s">HTML+CSS：&nbsp;&nbsp;<span class="txt3_04">1.精通html+css制作符合w3c的标准页面，熟练使用bootstrap来快速搭建前端网页的框架，实现响应式布局。<br>2.熟悉html5+css3新加的属性，可以手写基本动画和特效。<br>3.对常用浏览器兼容性，和移动端Web的开发也有一定的经验。</span></span>
+					<span class="sp3_txt txt3_05 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.7s">JavaScript：&nbsp;&nbsp;&nbsp;&nbsp;<span class="txt3_06">1.熟练JavaScript和jQuery，可以利用js(和jQ)手写部分特效和交互。熟悉jQ中的Ajax，可以利用Ajax异步获取后台的数据。简单了解ES6。<br>2.熟练使用vue.js对页面的渲染，实现页面的循环、判断、数据的双向绑定和实时计算。<br>3.掌握基本的node.js,可以用node.js+express模块搭建后台服务器，实现前端网页和服务器，数据库和服务器的数据交互。</span></span>
+					<span class="sp3_txt txt3_07 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.4s">Java+数据库：<span class="txt3_08">1.熟悉java基础，如：面向对象、常用工具类、多线程和数据操作。<br>2.能够增删改查简单使用SQL、mysql、Oracle和MongoDB数据库。</span></span>
+					<span class="sp3_txt txt3_09 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.1s">其他技能：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="txt3_10">1.熟练安装使用WebStorm和HBuilder等常用的前端工具进行编写，熟练使用浏览器的开发者工具(F12)对代码进行运行调试<br>2.并熟悉office办公软件。</span></span>
+				</div>
+				<!--第4部分-->
+				<div class="swiper-slide swiper4" id="myswiper4">
+					<div class="pagebg pagebg4"></div>
+					<span class="sp4_txt txt4_01 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">GitHub<span class="txt4_02"> —— 更贴近设计师和程序员，搭建起前端和后端的桥梁。</span></span>
+					<div class="item item1 ani" swiper-animate-effect="flip" swiper-animate-duration="1.1s" swiper-animate-delay="0.2s">
+						<a href="https://github.com/songchengzhuang/MoviesWeb.git" target="_blank">
+							<span>电影网项目</span>
+						</a>
+						<p>1.项目运用bootstrap+vue.js+node.js+MongoDB数据库，实现了响应式布局、Ajax的异步操作的快速建站。<br>2.用bootstrap快速搭建前端页面，使用vue.js实现数据的双向绑定和实时计算，运用$.ajax()异步获取node.js后台数据。
+							<br>3.该网站由电影首页、电影详情页、后台录入页、后台电影列表页，实现了电影的增删改查，并兼容IE浏览器。</p>
+
+					</div>
+					<div class="item item2 ani" swiper-animate-effect="flip" swiper-animate-duration="1.1s" swiper-animate-delay="1.0s">
+						<a href="https://github.com/songchengzhuang/movieWeb_2.git" target="_blank">
+							<span>电影网项目(2)</span>
+						</a>
+						<p>1.项目运用jQuery+jade(bootstrap)+node.js+MongoDB数据库，实现了响应式布局和快速建站。<br>2.用jade模板引擎快速编写页面，用node.js搭建服务器，直接操作MongoDB数据库存储信息，进行数据交互。
+							<br>3.该网站由电影首页、电影详情页、后台录入页、后台电影列表页，实现了电影的增删改查，兼容IE浏览器。</p>
+
+					</div>
+					<div class="item item3 ani" swiper-animate-effect="flip" swiper-animate-duration="1.1s" swiper-animate-delay="1.8s">
+						<a href="https://github.com/songchengzhuang/shoppingCart.git" target="_blank">
+							<span>购物车项目</span>
+						</a>
+						<p>1.主要基于bootstrap+vue.js的使用。用bootstrap搭建主页面，实现响应式布局。<br>2.运用vue.js实现了商品的选择、添加，全选(取消全选)，商品的删除和商品列表的展示，以及价格的双向绑定和总价个实时计算。</p>
+
+					</div>
+					<div class="item item4 ani" swiper-animate-effect="flip" swiper-animate-duration="1.1s" swiper-animate-delay="2.6s">
+						<a href="https://github.com/songchengzhuang/happyNewYear.git" target="_blank">
+							<span>手机版-新年贺卡</span>
+						</a>
+						<p>1.项目基于html5+css3实现贺卡的动画效果。如：灯笼的闪烁，红包的运动和图案的变大变小。
+							<br>2.运用JavaScript实现音乐的播放和暂停，当点击第一个一面的灯笼时，贺卡会自动竖向轮播。(PC端未做兼容)</p>
+
+					</div>
+				</div>
+				<!--第5部分-->
+				<div class="swiper-slide swiper5" id="myswiper5">
+					<!-- 作品展示 -->
+					<div class="swiper-container swiper5_1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide s5_slide01" onclick="window.open('zuopin/shoppingCart/index.html')">
+								<div class="sousuo"><span>购物车<br>（点击查看）</span></div>
+							</div>
+							<div class="swiper-slide s5_slide02" onclick="window.open('index.html')">
+								<div class="sousuo"><span>我的简历<br>（点击查看）</span></div>
+							</div>
+							<div class="swiper-slide s5_slide03" onclick="window.open('https://github.com/songchengzhuang/MoviesWeb.git')">
+								<div class="sousuo"><span>电影网站<br>（点击查看）</span></div>
+							</div>
+							<div class="swiper-slide s5_slide04" onclick="window.open('zuopin/JAVAshixue/index.html')">
+								<div class="sousuo"><span>表单验证<br>（点击查看）</span></div>
+							</div>
+							<div class="swiper-slide s5_slide05" onclick="window.open('zuopin/happyNewYear/index.html')">
+								<div class="sousuo"><span>手机版新年贺卡<br>（请用手机打开）</span></div>
+							</div>
+						</div>
+					</div>
+					<span class="sp5_txt txt5_01 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">作品展示<span class="txt5_02"> —— 灵感与代码的结合，梦幻和奇异的思维。</span></span>
+				</div>
+				<!--第6部分-->
+				<div class="swiper-slide swiper6" id="myswiper6">
+					<span class="sp6_txt txt6_01 ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.1s">联系我吧<span class="txt6_02"> —— 一起看更大的世界。</span></span>
+					<span class="sp6_txt txt6_03 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1.0s" swiper-animate-delay="0.2s">伯乐，这里有你的一封信呦!</span>
+					<div class="xinjian ani" swiper-animate-effect="xinfengdonghua" swiper-animate-duration="1.3s" swiper-animate-delay="1.0s">
+						<div class="xinfeng_01">我的电话：
+							<a href="tel:17863816136">17863816136</a>
+						</div>
+						<div class="xinfeng_02">我的邮箱:
+							<a href="mailto:songchengzhuang@foxmail.com">songchengzhuang@foxmail.com</a>
+						</div>
+						<div class="xinfeng_03">我的简历:&nbsp;&nbsp;
+							<a href="wordjianli/songchengzhuangjianli.docx" title="宋呈状的Word格式简历下载" download=songchengzhuangjianli.docx ">（word版简历下载）</a>
+						</div>
+					</div>
+					<div class="tushou ani " swiper-animate-effect="tuoshoudonghua " swiper-animate-duration="2.6s " swiper-animate-delay="1.0s "></div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination "></div>
+		</div>
+		<!--公共库-->
+		<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.js "></script>
+		<script src="//cdn.bootcss.com/Swiper/3.4.0/js/swiper.jquery.min.js "></script>
+		<script type="text/javascript " src="chajianku/swiper.animate1.0.2.min.js "></script>
+		<!--自己的js-->
+		<script type="text/javascript " src="js/myFullpageStart.js "></script>
+		<script type="text/javascript " src="js/loading.js "></script>
+		<script type="text/javascript " src="js/myanimation.js "></script>
+	</body>
+
+</html>
